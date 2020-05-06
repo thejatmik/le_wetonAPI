@@ -51,7 +51,7 @@ function wetonan(dt) {
 
   if ( dt < t0 ) throw new Error(`date required to be after ${julian.toDate(t0).toLocaleString()}`)
 
-  let dti = dt - t0 - 1;
+  let dti = dt - t0;
   dti += Math.floor(dti / (15*81*7*5 - 1));
   
   // relative date into the windu

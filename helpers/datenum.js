@@ -7,7 +7,7 @@ function datenum(year, month, day) {
   // add 7 hours for UTC+7 (Java);
   // date = date.valueOf() + (8 * 60 * 60 * 1000);
   // date = new Date(date);
-  const jday = julian.toJulianDay(date) - 1;
+  const jday = julian.toJulianDay(date);
   return jday;
 }
 
