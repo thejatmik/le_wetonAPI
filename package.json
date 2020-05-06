@@ -1,0 +1,22 @@
+{
+  "name": "3_weton_api",
+  "version": "1.0.0",
+  "description": "Weton API based on WETON: Javanese calendar by beaudu",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "PORT=3000 nodemon app.js"
+  },
+  "keywords": [
+    "weton",
+    "calendar",
+    "api"
+  ],
+  "author": "jatmika teja",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "julian": "^0.2.0"
+  }
+}
